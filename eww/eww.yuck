@@ -1,0 +1,15 @@
+(include "props/workspaces.yuck")
+(include "props/clock.yuck")
+(include "props/systemstuff.yuck")
+
+(defwindow bar
+           :monitor 0
+           :geometry (geometry :x "0%"
+                               :y "6px"
+                               :width "98%"
+                               :height "1px"
+                               :anchor "top center")
+           :stacking "fg"
+           :windowtype "dock"
+           :class "bar"
+  (box (workspaces) (box :halign "end" (systemstuff) (clock))))
