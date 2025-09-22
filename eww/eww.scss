@@ -1,0 +1,30 @@
+* {
+  all: unset;
+}
+
+.bar {
+    border-radius: 128px;
+    background-color: #222;
+    color: white;
+    padding: 2px;
+}
+
+.tab {
+    margin: 4px;
+    margin-right: 0px;
+    border-radius: 1920px;
+    background-color: #666;
+    padding: 8px;
+}
+
+.tab-focused {
+    color: skyblue
+}
+
+.clock {
+    margin-right: 12px;
+}
+
+.battery {
+    margin-right: 12px;
+}
